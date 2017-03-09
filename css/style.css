@@ -1,0 +1,53 @@
+html{
+  height: 97vh;
+  width: 97vw;
+  margin: 0 auto;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 5px solid #7d97ad;
+  font-family: 'Roboto', Sans-serif;
+}
+
+.logo{
+  height: 6em;
+}
+
+#main-photo-area{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-photo {
+  width: 50%;
+  height:30%;
+}
+
+#project-area{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.featured-work{
+  margin-left: 9%;
+}
+
+.projects{
+  display: flex;
+  width: 100%;
+}
+
+.project-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-img{
+  width: 50%;
+}
