@@ -5,6 +5,7 @@ html {
   color: #2d3c49;
 }
 
+/*Removed visited ancor color*/
 a:visited {
   color: #2d3c49;
 }
@@ -47,6 +48,7 @@ a:visited {
   color: #7d97ad;
 }
 
+/*Changes direction of content from row to column for smaller view ports.*/
 @media (max-width: 769px) {
   .projects {
     flex-direction: column;
