@@ -1,10 +1,15 @@
-html{
+html {
   height: 97vh;
   width: 97vw;
   margin: 0 auto;
+  color: #2d3c49;
 }
 
-.header-content{
+a:visited {
+  color: #2d3c49;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -12,42 +17,57 @@ html{
   font-family: 'Roboto', Sans-serif;
 }
 
-.logo{
+.logo {
   height: 6em;
 }
 
-#main-photo-area{
+#main-photo-area {
   width: 100%;
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  box-shadow: 1px 0px 18px 2px rgba(0,0,0,0.5);
+  padding: 2em 0;
 }
-.main-photo {
+
+.main-photo  {
   width: 50%;
   height:30%;
 }
 
-#project-area{
+#project-area {
   width: 100%;
   margin-top: 40px;
+  box-shadow: 1px 0px 18px 2px rgba(0,0,0,0.5);
+  padding: 2em 0;
 }
 
-.featured-work{
+.featured-work {
   margin-left: 9%;
+  color: #7d97ad;
 }
 
-.projects{
+@media (max-width: 769px) {
+  .projects {
+    flex-direction: column;
+  }
+  .project-details {
+    margin-bottom: 3em;
+  }
+}
+
+.projects {
   display: flex;
   width: 100%;
 }
 
-.project-details {
+.project-details  {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.project-img{
+.project-img {
   width: 50%;
 }
